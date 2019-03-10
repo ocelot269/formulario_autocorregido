@@ -163,7 +163,7 @@ function corregirNumber2() {
 	//en este ejemplo hace una comparación de números enteros
 	var s=formElement.elements[17].value;
 	if (s==numeroSecreto2) {
-		darRespuestaHtml("Pregunta 6: Eso es!!");
+		darRespuestaHtml("Pregunta 6: Hay le has dado!!");
 		nota +=1;
 	} else {
 		if (s>numeroSecreto2) darRespuestaHtml("P6: Te has pasadoo"); else darRespuestaHtml("Pregunta 6: Te has quedado cortoo");
@@ -174,7 +174,7 @@ function corregirNumber3() {
 	//en este ejemplo hace una comparación de números enteros
 	var s=formElement.elements[34].value;
 	if (s==numeroSecreto3) {
-		darRespuestaHtml("Pregunta 10: Eso es!!");
+		darRespuestaHtml("Pregunta 10: Hay le has dado!!");
 		nota +=1;
 	} else {
 		if (s>numeroSecreto3) darRespuestaHtml("Pregunta 10: Te has pasadoo"); else darRespuestaHtml("Pregunta 10: Te has quedado cortoo");
@@ -300,9 +300,9 @@ function corregirRadioButton() {
 	//Para cada opción mira si está checkeada, si está checkeada mira si es correcta y lo guarda en un array escorrecta[]
 	var f=formElement;
 	var escorrecta = [];
-	for (i = 0; i < f.Monjon.length; i++) {
-		//"Monjon" es el nombre asignado a todos los radiobuton
-		if (f.Monjon[i].checked) {
+	for (i = 0; i < f.radio.length; i++) {
+		//"radio" es el nombre asignado a todos los radiobuton
+		if (f.radio[i].checked) {
 			escorrecta[i]=false;
 			for (j = 0; j < respuestasRadioButton.length; j++) {
 				if (i==respuestasRadioButton[j]) escorrecta[i]=true;
@@ -322,9 +322,9 @@ function corregirRadioButton2() {
 	//Para cada opción mira si está checkeada, si está checkeada mira si es correcta y lo guarda en un array escorrecta[]
 	var f=formElement;
 	var escorrecta = [];
-	for (i = 0; i < f.Monjon1.length; i++) {
-		//"Monjon" es el nombre asignado a todos los radiobuton
-		if (f.Monjon1[i].checked) {
+	for (i = 0; i < f.radio1.length; i++) {
+		//"radio" es el nombre asignado a todos los radiobuton
+		if (f.radio1[i].checked) {
 			escorrecta[i]=false;
 			for (j = 0; j < respuestasRadioButton2.length; j++) {
 				if (i==respuestasRadioButton2[j]) escorrecta[i]=true;
@@ -429,10 +429,10 @@ function ponerDatosRadioButtonHtml(t,opt) {
 		var input = document.createElement("input");
 		var label = document.createElement("label");
 		label.innerHTML=opt[i];
-		label.setAttribute("for", "Monjon"+i);
+		label.setAttribute("for", "radio"+i);
 		input.type="radio";
-		input.name="Monjon";
-		input.id="Monjon_"+i;
+		input.name="radio";
+		input.id="radio_"+i;
 		;
 		RadioButtonContainer.appendChild(input);
 		RadioButtonContainer.appendChild(label);
@@ -446,10 +446,10 @@ function ponerDatosRadioButton2Html(t,opt) {
 		var input = document.createElement("input");
 		var label = document.createElement("label");
 		label.innerHTML=opt[i];
-		label.setAttribute("for", "Monjon1"+i);
+		label.setAttribute("for", "radio1"+i);
 		input.type="radio";
-		input.name="Monjon1";
-		input.id="Monjon1_"+i;
+		input.name="radio1";
+		input.id="radio1_"+i;
 		;
 		RadioButton2Container.appendChild(input);
 		RadioButton2Container.appendChild(label);
@@ -491,11 +491,11 @@ function comprobar() {
 		//"color" es el nombre asignado a todos los checkbox
 		if (f.color2[i].checked) checkedCheckbox3=true;
 	}
-	for (i = 0; i < f.Monjon.length; i++) {
-		if (f.Monjon[i].checked) checkedRadioButton=true;
+	for (i = 0; i < f.radio.length; i++) {
+		if (f.radio[i].checked) checkedRadioButton=true;
 	}
-	for (i = 0; i < f.Monjon1.length; i++) {
-		if (f.Monjon1[i].checked) checkedRadioButton2=true;
+	for (i = 0; i < f.radio1.length; i++) {
+		if (f.radio1[i].checked) checkedRadioButton2=true;
 	}
 	if (f.elements[0].value=="") {
 		f.elements[0].focus();

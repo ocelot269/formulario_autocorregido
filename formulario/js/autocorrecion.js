@@ -155,7 +155,7 @@ function corregirNumber() {
 		darRespuestaHtml("Pregunta 1: Exacto!");
 		nota +=1;
 	} else {
-		if (s>numeroSecreto) darRespuestaHtml("Pregunta 1: Te has pasado"); else darRespuestaHtml("Pregunta 1: Te has quedado corto");
+		darRespuestaHtml("Pregunta 1: Mal");
 	}
 }
 function corregirNumber2() {
@@ -166,7 +166,7 @@ function corregirNumber2() {
 		darRespuestaHtml("Pregunta 6: Hay le has dado!!");
 		nota +=1;
 	} else {
-		if (s>numeroSecreto2) darRespuestaHtml("P6: Te has pasadoo"); else darRespuestaHtml("Pregunta 6: Te has quedado cortoo");
+		darRespuestaHtml("Pregunta 6: Mal");
 	}
 }
 function corregirNumber3() {
@@ -177,7 +177,7 @@ function corregirNumber3() {
 		darRespuestaHtml("Pregunta 10: Hay le has dado!!");
 		nota +=1;
 	} else {
-		if (s>numeroSecreto3) darRespuestaHtml("Pregunta 10: Te has pasadoo"); else darRespuestaHtml("Pregunta 10: Te has quedado cortoo");
+		darRespuestaHtml("Pregunta 10: Mal");
 	}
 }
 function corregirSelect() {

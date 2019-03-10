@@ -1,0 +1,116 @@
+/* pagina de inicio */
+
+#caja {
+	padding: 200px;
+	width: 70%;
+	height: 200%;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "Arial";
+	color: #2EFE2E;
+}
+
+#fieldsetIntro {
+	background: #EBD564;
+	color: black;
+	border-style: none;
+	text-shadow: none;
+}
+#titulo {
+	color: black;
+}
+
+li {
+	text-align: center;
+	display: block;
+}
+
+
+/*formulario */
+
+body {
+	margin: 10px;
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
+	background-image: url("../img/fondo.jpg");
+	font-size: 1em;
+	text-shadow: 12px -3px 9px #767F80;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 68px;
+	font-family: "Redux";
+	color: #00ffa6;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+
+}
+
+h3 {
+	font-size: 1.5em;
+	color: black;
+}
+
+input[type=radio] {
+	width: 5%;
+}
+
+input[type=checkbox] {
+	width: 5%;
+}
+
+
+form {
+	padding: 5%;
+	background: #e0e067;
+	width: 700px;
+	margin: auto;
+	border-radius: 15px;
+
+}
+
+#resultadosDiv {
+	background: #2e807d;
+	text-align: center;
+	text-align: left;
+	font-size: 1.6em;
+	color: #EBD758;
+	width: 700px;
+	margin: auto;
+	border-radius: 15px;
+}
+
+
+#corregir {
+	color: black;
+	font-weight: bolder;
+	width: 160px;
+	height: 55px;
+	background: #ECD10A;
+	margin: auto;
+	display: block;
+	border-radius: 15px;
+}
+
+fieldset {
+	border-style: inset;
+	margin: auto;
+	border-radius: 15px;
+	background: #2e807d;
+
+}
+
+#Instrucciones {
+	background-image: url("../img/banana.gif");
+	display: block;
+	height: 15%;
+	width: 25%;
+	margin-top: 20px;
+	margin-left: 30%;
+	margin-bottom: 5%;
+}

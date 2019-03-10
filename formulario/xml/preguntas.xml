@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions SYSTEM "preguntas.dtd">
+<questions>
+    <question id="pregunta_01">
+        <type>text</type>
+        <title>1.¿Qué país es el más plano de la Tierra y cuenta con el depósito de sal más largo del mundo? </title>
+        <answer>bolivia</answer>
+    </question>
+    <question id="pregunta_02">
+        <type>select</type>
+        <title>2.Este país no tiene ejército y en el año 2015 fue nombrado el más feliz del mundo, ¿sabes cuál es?</title>
+        <option>Costa Rica</option>
+        <option>Reino Unido</option>
+        <option>España</option>
+        <option>Francia</option>
+        <answer>0</answer>
+		
+    </question>
+    <question id="pregunta_03">
+        <type>checkbox</type>
+        <title>3.¿Cuál es el país más grande de África y está cubierto casi en su totalidad por el desierto del Sáhara?</title>
+        <option>Mali</option>
+        <option>Niger</option>
+        <option>Costa Rica</option>
+        <option>Argelia</option>
+        <answer>0</answer>
+        <answer>3</answer>
+    </question>
+    <question id="pregunta_04">
+        <type>radiobutton</type>
+        <title>4.¿Qué país cuenta con el glaciar más joven y con la colonia de murciélagos más grande del mundo?</title>
+        <option>Albania</option>
+        <option>Estados Unidos</option>
+        <option>Andorra</option>
+        <option>Portugal</option>
+        <answer>1</answer>
+    </question>
+    <question id="pregunta_05">
+        <type>select</type>
+        <title>5.Que país el único donde el vudú está reconocido como religión</title>
+        <option>Luxemburgo</option>
+        <option>Haiti</option>
+        <option>Bután</option>
+        <option>Jamaica</option>
+        <answer>1</answer>
+    </question>
+    <question id="pregunta_06">
+        <type>text</type>
+        <title>6.Donde es posible encontrar a nativos rubios y ojos azules que son descendientes de los piratas.</title>
+        <answer>honduras</answer>
+    </question>
+    <question id="pregunta_07">
+        <type>checkbox</type>
+        <title>7.Himnos de países que no contienen ni una sola palabra(Puede contener más de 1 respuesta correcta)</title>
+        <option>España</option>
+        <option>Kosovo</option>
+        <option>San Marino</option>
+        <option>Ninguna es correcta</option>
+        <answer>0</answer>
+        <answer>1</answer>
+        <answer>2</answer>
+
+    </question>
+    <question id="pregunta_08">
+        <type>radiobutton</type>
+        <title>8.En que países nórdicos permiten a los padres una baja de paternidad pagada de 480 días cuando tienen un bebé o adoptan a un niño y durante 390 días los padres recibirán el pago del 80% del sueldo(Puede haber más de una correcta)</title>
+        <option>Suecia</option>
+        <option>Finlandia</option>
+        <option>Islandia</option>
+        <option>Ninguna es correcta</option>
+        <answer>0</answer>
+
+
+    </question>
+    <question id="pregunta_09">
+        <type>checkbox</type>
+        <title>9.Cual es el segundo país más grande del mundo, también es el país más educado, la mitad de sus habitantes tienen formación universitaria)</title>
+        <option>Canada</option>
+        <option>Rusia</option>
+        <option>China</option>
+        <option>Estados Unidos</option>
+        <answer>1</answer>
+        
+    </question>
+    <question id="pregunta_10">
+        <type>text</type>
+        <title>10.Hay una piña debajo del mar...</title>
+        <answer>bob esponja</answer>
+    </question>
+</questions>
